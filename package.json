@@ -18,10 +18,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build:prod": "react-scripts build",
+    "build": "react-scripts build",
+    "deploy" : "firebase deploy",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "build": "clear && node ./build.js"
+    "eject": "react-scripts eject"
+    
   },
   "eslintConfig": {
     "extends": "react-app"
