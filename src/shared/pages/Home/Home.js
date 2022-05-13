@@ -21,7 +21,7 @@ const Home = function (props) {
           </SliderItem>
         </Slider>
       </Cover>
-      
+      <HomePrimeInfo/>
       <HomeGreetings />
       <HomeAbout />
     </Page>
