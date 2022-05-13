@@ -10,10 +10,14 @@ import HomePrimeInfo from "../../components/HomePrimeInfo/HomePrimeInfo";
 import HomeGreetings from "../../components/HomeGreetings/HomeGreetings";
 import HomeAbout from "../../components/HomeAbout/HomeAbout";
 
+
+
+
 const Home = function (props) {
   return (
     <Page name="home">
-      <Header theme="transparent" component={<PrimaryHeader logo="ipa" />} />
+      {/*<Header theme="transparent" component={<PrimaryHeader logo="ipa" />} />*/}
+      <PrimaryHeader logo="ipa" />
       <Cover animate={true}>
         <Slider>
           <SliderItem>
@@ -21,7 +25,6 @@ const Home = function (props) {
           </SliderItem>
         </Slider>
       </Cover>
-      <HomePrimeInfo/>
       <HomeGreetings />
       <HomeAbout />
     </Page>

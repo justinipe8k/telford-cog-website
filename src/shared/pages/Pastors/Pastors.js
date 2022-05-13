@@ -10,7 +10,7 @@ import PrimaryHeader from "../../components/PrimaryHeader/PrimaryHeader";
 const Pastors = function (props) {
   return (
     <Page name="pastors">
-      <Header component={<PrimaryHeader logo="ipa" />} />
+      <PrimaryHeader logo="ipa" />
       <PageBanner>
         <PageTitle title="Our Pastors" />
       </PageBanner>

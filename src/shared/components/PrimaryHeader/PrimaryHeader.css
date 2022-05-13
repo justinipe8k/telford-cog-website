@@ -2,6 +2,8 @@
   position: relative;
   padding: 0px 25px;
   z-index: 1;
+  border-bottom: solid black 1px;
+  background-color: rgb(25, 17, 32);
 }
 
 .PrimaryHeader__content {

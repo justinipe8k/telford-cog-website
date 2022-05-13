@@ -27,3 +27,6 @@ build-checklist.json
 
 # Local Netlify folder
 .netlify
+
+firebase-debug
+.env

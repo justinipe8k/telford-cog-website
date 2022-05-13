@@ -18,7 +18,7 @@
   top: 0px;
   left: 0px;
   width: 100%;
-  height: 100%;
+  height: 350%;
   opacity: 1;
   background-size: 275px auto;
   background-position: 0px 0px;
@@ -27,6 +27,7 @@
 
 .HeaderLogo--logo-ipa .HeaderLogo__image__img--light {
   background-image: url("./images/logo_full_dark_750x200.png");
+  
 }
 .HeaderLogo--logo-ipa .HeaderLogo__image__img--dark {
   background-image: url("./images/logo_full_light_750x200.png");

@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PastorsListItem from "../PastorsListItem/PastorsListItem";
-import pastorJoseph from "../../images/photos/pastor-joseph_k_joseph.png";
-import pastorJoshua from "../../images/photos/pastor-joshua_k_joseph.jpg";
+import pr_biju_cherian from "../../images/photos/pr_biju_cherian.jpg";
+import br_rejoy from "../../images/photos/br_rejoy.jpg";
 import "./PastorsList.css";
 
 const PastorsList = function (props) {
@@ -10,23 +10,23 @@ const PastorsList = function (props) {
     <div className="PastorsList">
       <div className="wrapper wrapper--content">
         <div className="PastorsList__content">
-          <Link to="/pastors/pr-joseph-k-joseph">
+         { /*<Link to="/pastors/pr-joseph-k-joseph">*/}
             <PastorsListItem
               id="joseph"
-              photo={pastorJoseph}
-              name="Pr. Joseph K. Joseph"
-              role="Senior Pastor"
+              photo={pr_biju_cherian}
+              name="Pr. Biju Cherian"
+              role="Pastor"
             />
-          </Link>
+          {/*</Link>*/}
           <div className="PastorsList__divider"></div>
-          <Link to="/pastors/pr-joshua-joseph">
+          {/* {<Link to="/pastors/pr-joshua-joseph">} */}
             <PastorsListItem
               id="joshua"
-              photo={pastorJoshua}
-              name="Pr. Joshua K. Joseph"
-              role="Associate Pastor"
+              photo={br_rejoy}
+              name="Br. Rejoy Stephan"
+              role="Worship Leader"
             />
-          </Link>
+          {/* {</Link>} */}
         </div>
       </div>
     </div>

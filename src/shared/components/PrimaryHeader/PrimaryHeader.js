@@ -15,7 +15,6 @@ const PrimaryHeader = function({ logo, showSearch, showNavigation }) {
             <HeaderLogo logo={ logo } />
             <HeaderSearchIcon onClick={ showSearch } />
           </div>
-          <HeaderMenuIcon onClick={ showNavigation } />
         </div>
       </div>
     </div>

@@ -12,9 +12,9 @@ const HomeAboutOverview = function(props) {
           <p>
             We are a church that honors God's Word, 
             believes in the work of the Holy Spirit, and worship the Lord in spirit and truth. 
-            We are a caring and loving church that has been in existence since 1972. 
+            We are a caring and loving church that has been in existence on 01 July 2021. 
             We are a missionary-minded church that believes in reaching the unreached with the love of Jesus Christ.
-          </p>
+          </p>''
           <br/>
           <br/>
           <Link to="/about">
