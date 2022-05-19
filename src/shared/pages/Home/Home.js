@@ -9,6 +9,7 @@ import HomeWelcome from "../../components/HomeWelcome/HomeWelcome";
 import HomePrimeInfo from "../../components/HomePrimeInfo/HomePrimeInfo";
 import HomeGreetings from "../../components/HomeGreetings/HomeGreetings";
 import HomeAbout from "../../components/HomeAbout/HomeAbout";
+import HeaderNew from "../../components/Header/HeaderNew";
 
 
 
@@ -17,7 +18,7 @@ const Home = function (props) {
   return (
     <Page name="home">
       {/*<Header theme="transparent" component={<PrimaryHeader logo="ipa" />} />*/}
-      <PrimaryHeader logo="ipa" />
+      <HeaderNew/>
       <Cover animate={true}>
         <Slider>
           <SliderItem>

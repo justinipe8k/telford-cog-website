@@ -1,6 +1,6 @@
 import React from "react";
-import pastorJosephPhoto from "../../images/photos/pastor-joseph_k_joseph.png";
-import pastorJoshuaPhoto from "../../images/photos/pastor-joshua_k_joseph.jpg";
+import pastorJosephPhoto from "../../images/photos/pr_biju_cherian.jpg";
+import pastorJoshuaPhoto from "../../images/photos/pr_biju_cherian.jpg";
 
 const pastorJoseph = {
   id: "joseph",
