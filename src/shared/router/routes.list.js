@@ -1,8 +1,10 @@
 import Home from "../pages/Home/Home";
 import NotFoundError from "../pages/Error/NotFoundError";
-import Pastors from "../pages/Pastors/Pastors";
-import Beliefs from "../pages/About/Beliefs";
-import PastorProfile from "../pages/Pastors/PastorProfile";
+import Leadership from "../pages/Leadership/Leadership";
+import Beliefs from "../pages/Beliefs/Beliefs";
+import Ministries from "../pages/Ministries/Ministries";
+import About from "../pages/About/About";
+import Contact from "../pages/Contact/Contact";
 
 const routes = [
   {
@@ -12,18 +14,28 @@ const routes = [
   },
   {
     exact: true,
-    path: "/pastors",
-    component: Pastors,
+    path: "/about",
+    component: About,
   },
   {
     exact: true,
-    path: "/pastors/:pastor",
-    component: PastorProfile,
+    path: "/leadership",
+    component: Leadership,
   },
   {
     exact: true,
-    path: "/about/beliefs",
+    path: "/beliefs",
     component: Beliefs,
+  },
+  {
+    exact: true,
+    path: "/ministries",
+    component: Ministries,
+  },
+  {
+    exact: true,
+    path: "/contact",
+    component: Contact,
   },
   {
     component: NotFoundError,

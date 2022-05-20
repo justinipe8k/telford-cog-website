@@ -11,7 +11,7 @@ import Navbar from "../../components/Header/Navbar";
 const Home = function (props) {
   return (
     <Page name="home"> 
-    <Navbar/>     
+    
       <Cover animate={true}>
         <Slider>
           <SliderItem>

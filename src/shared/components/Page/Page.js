@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { setPageName, closeDrawer } from "../../redux/actions";
 import Footer from "../Footer/Footer";
+import Navbar from "../Header/Navbar";
 import "./Page.css";
 
 class Page extends Component {
@@ -40,6 +41,7 @@ class Page extends Component {
 
     return (
       <div className="wrapper wrapper--outer">
+        <Navbar/>
         <div className={pageClassName}>
         
           <div className="Page__content">

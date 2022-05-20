@@ -2,17 +2,17 @@ import React from "react";
 import Page from "../../components/Page/Page";
 import PageBanner from "../../components/PageBanner/PageBanner";
 import PageTitle from "../../components/PageTitle/PageTitle";
-import PastorsList from "../../components/PastorsList/PastorsList";
+import BeliefsList from "../../components/BeliefsList/BeliefsList";
 
-const Pastors = function (props) {
+const Ministries = function (props) {
   return (
-    <Page name="pastors">
+    <Page name="Ministries">
       <PageBanner>
-        <PageTitle title="Our Pastors" />
+        <PageTitle title="Our Ministries" />
       </PageBanner>
-      <PastorsList />
+      <BeliefsList />
     </Page>
   );
 };
 
-export default Pastors;
+export default Ministries;

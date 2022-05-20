@@ -3,14 +3,15 @@ import Page from "../../components/Page/Page";
 import PageBanner from "../../components/PageBanner/PageBanner";
 import PageTitle from "../../components/PageTitle/PageTitle";
 
-const PastorProfilePage = function (props) {
+const Contact = function (props) {
   return (
-    <Page name="pastor-profile">
+    <Page name="Contact Us">
       <PageBanner>
-        <PageTitle title="About" />
+        <PageTitle title="Contact Us" />
       </PageBanner>
+    <h1>Contact Us</h1>
     </Page>
   );
 };
 
-export default PastorProfilePage;
+export default Contact;
