@@ -1,6 +1,7 @@
 import React from "react";
 import "./HomeWelcome.css";
 import Button from "../Button/Button";
+import { Link } from 'react-router-dom';
 
 const HomeWelcome = function(props) {
   return (
@@ -10,7 +11,9 @@ const HomeWelcome = function(props) {
       </div>
       <div className="HomeWelcome__text">Let's worship together</div>
       <div className="HomeWelcome__buttons">
+<Link to='/contact'>
         <Button text="Contact Us" hoverType="outline" />
+        </Link>
       </div>
     </div>
   );

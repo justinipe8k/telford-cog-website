@@ -1,6 +1,7 @@
 import React from "react";
 import SocialMediaIconSet from "../SocialMediaIconSet/SocialMediaIconSet";
 import "./FooterMain.css";
+import { Link } from 'react-router-dom';
 
 const FooterMain = function (props) {
   const socialmedia = [
@@ -21,9 +22,11 @@ const FooterMain = function (props) {
   return (
     <div className="FooterMain">
       <div className="FooterMain__holder">
+      <Link to="/">
         <div className="FooterMain__logo">
           <div className="FooterMain__logo__image"></div>
         </div>
+        </Link>
         <div className="FooterMain__socialmedia">
           <SocialMediaIconSet list={socialmedia} />
         </div>

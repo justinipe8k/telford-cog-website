@@ -8,4 +8,5 @@
   justify-content: space-around;
   align-items: center;
   padding: 100px 50px;
+  flex-wrap: wrap;
 }

@@ -13,6 +13,7 @@
   cursor: pointer;
   transition: background-color 0.25s ease-in-out 0s,
     box-shadow 0.25s ease-in-out 0s;
+
 }
 .HomePrimeInfoItem:nth-child(2) {
   box-shadow: 0px -15px 20px -15px rgba(0, 0, 0, 1.0);
@@ -35,7 +36,10 @@
   justify-content: center;
   align-items: flex-start;
   position: relative;
+  flex-wrap: wrap;
   top: 5px;
+  
+  border: solid black;
 }
 
 .HomePrimeInfoItem__name {

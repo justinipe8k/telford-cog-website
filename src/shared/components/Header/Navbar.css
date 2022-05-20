@@ -34,6 +34,8 @@
 .nav-link:hover {
 	color: rgb(179, 211, 93);
 	background-color: #555;
+	animation-name: animation2;
+		animation-duration: .1s;
 }
 
 .nav-icon {
@@ -49,13 +51,24 @@
 .nav-logo-div {
 	display: flex;
 	justify-items: center;
+	padding-top: 0px;
 }
 
-.nav-logo-subDiv {
+.nav-logo-subDiv1 {
 	justify-items: center;
-	margin-top: 2rem;
+	vertical-align: middle;
 	display: flex;
 	flex-direction: column;
+}
+
+.nav-logo-subDiv2 {
+	justify-items: center;
+	vertical-align: middle;
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	font-family: Georgia, serif;
+	font-size: 20px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -65,6 +78,7 @@
 	}
 
 	.nav-links {
+		padding: 18px 0px;
 		display: flex;
 		flex-direction: column;
 		position: absolute;
@@ -72,21 +86,36 @@
 		width: 100%;
 		top: 80px;
 		left: -100%;
+		justify-items: center;
 
+		animation-name: animation1;
+		animation-duration: 4s;
 	}
 
 	.nav-links.active {
-		background: blue;
+		background: rgb(79, 79, 92);
 		left: 0;
 	}
 
 	.nav-item {
 		padding: 10px 0;
-		border-top: 1px solid red;
-		border-bottom: 1px solid red;
+		margin-top: -12px;
+		width: 95%;
+		margin-left: 10px;
+		background-color: #555;
 	}
 
 	.nav-icon {
 		display: flex;
 	}
 }
+
+@keyframes animation1 {
+	from {}
+	to {}
+  }
+
+  @keyframes animation2 {
+	from {}
+	to {margin-left: 10px;margin-right: 10px;}
+  }

@@ -9,7 +9,7 @@ const About = function (props) {
       <PageBanner>
         <PageTitle title="About Us" />
       </PageBanner>
-      About us
+      <h1>About us</h1>
     </Page>
   );
 };

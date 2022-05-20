@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../Button/Button";
 import "./FooterLocationInfo.css";
+import { Link } from 'react-router-dom';
 
 const FooterLocationInfo = function (props) {
   return (
@@ -12,7 +13,7 @@ const FooterLocationInfo = function (props) {
           <br /> Lychgate Walk, Wellington - TF1 3HA
           <br /> United Kingdom
         </div>
-        <Button text="View Map" size="small" type="outline" bgColor="#263238" />
+        <a href='https://goo.gl/maps/FEsb17CUKPp5KP1P7'> <Button text="View Map" size="small" type="outline" bgColor="#263238"  /> </a>
       </div>
     </div>
   );

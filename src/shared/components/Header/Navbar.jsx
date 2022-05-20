@@ -19,17 +19,22 @@ const Navbar = () => {
 		<nav className="navbar">
 			<Link to="/" className="nav-logo">
 				<div className="nav-logo-div">
-				<img alt='logo' className='logo_image' src={logo} />
-				<div className="nav-logo-subDiv"><div>Mahanaim Church of God</div><div>Telford</div></div>
-				
+					<div className="nav-logo-subDiv1">
+						<img alt='logo' className='logo_image' src={logo} />
+					</div>
+					<div className="nav-logo-subDiv2">
+						<div>Mahanaim Church of God</div>
+						<div>Telford</div>
+					</div>
+
 				</div>
 			</Link>
 			<div onClick={handleClick} className="nav-icon">
 				{open ? <FiX /> : <FiMenu />}
 			</div>
-			
+
 			<ul className={open ? 'nav-links active' : 'nav-links'}>
-			<li className="nav-item">
+				<li className="nav-item">
 					<Link to="/about" className="nav-link" onClick={closeMenu}>
 						About Us
 					</Link>
