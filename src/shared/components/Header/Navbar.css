@@ -1,0 +1,92 @@
+.navbar {
+	height: 80px;
+	width: 100%;
+	display: flex;
+	position: relative;
+	align-items: center;
+	background-color: #333;
+	color: white;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1.2rem;
+	padding-right: 2rem;
+}
+
+.nav-logo {
+	text-decoration: none;
+	color: white;
+}
+
+.nav-links {
+	display: grid;
+	grid-template-columns: repeat(4, auto);
+	grid-gap: 20px;
+	list-style: none;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: white;
+	transition: 0.3s all;
+	padding: 1rem;
+}
+
+.nav-link:hover {
+	color: rgb(179, 211, 93);
+	background-color: #555;
+}
+
+.nav-icon {
+	display: none;
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+.logo_image {
+	width: 110px;
+}
+
+.nav-logo-div {
+	display: flex;
+	justify-items: center;
+}
+
+.nav-logo-subDiv {
+	justify-items: center;
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: column;
+}
+
+@media only screen and (max-width: 500px) {
+	.navbar {
+		position: relative;
+		z-index: 99;
+	}
+
+	.nav-links {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		top: 80px;
+		left: -100%;
+
+	}
+
+	.nav-links.active {
+		background: blue;
+		left: 0;
+	}
+
+	.nav-item {
+		padding: 10px 0;
+		border-top: 1px solid red;
+		border-bottom: 1px solid red;
+	}
+
+	.nav-icon {
+		display: flex;
+	}
+}

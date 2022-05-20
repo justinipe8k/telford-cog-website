@@ -6,13 +6,12 @@ import SliderItem from "../../components/SliderItem/SliderItem";
 import HomeWelcome from "../../components/HomeWelcome/HomeWelcome";
 import HomeGreetings from "../../components/HomeGreetings/HomeGreetings";
 import HomeAbout from "../../components/HomeAbout/HomeAbout";
-
-
-
+import Navbar from "../../components/Header/Navbar";
 
 const Home = function (props) {
   return (
-    <Page name="home">      
+    <Page name="home"> 
+    <Navbar/>     
       <Cover animate={true}>
         <Slider>
           <SliderItem>
