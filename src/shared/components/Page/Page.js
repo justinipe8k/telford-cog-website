@@ -42,8 +42,7 @@ class Page extends Component {
     return (
       <div className="wrapper wrapper--outer">
         <Navbar/>
-        <div className={pageClassName}>
-        
+        <div className={pageClassName}>        
           <div className="Page__content">
             {this.props.children}
             <Footer />
