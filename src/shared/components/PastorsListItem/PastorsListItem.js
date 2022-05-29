@@ -1,18 +1,21 @@
-import React from "react";
-import "./PastorsListItem.css";
+import React from 'react'
+import { Card, Icon } from 'semantic-ui-react'
 
-const PastorsListItem = function ({ id, photo, name, role }) {
-  return (
-    <div className="PastorsListItem">
-      <div className={`PastorsListItem__image PastorsListItem__image--${id}`}>
-        <img src={photo} alt={name} draggable="false" />
-      </div>
-      <div className="PastorsListItem__info">
-        <div className="PastorsListItem__info__name">{name}</div>
-        <div className="PastorsListItem__info__role">{role}</div>
-      </div>
-    </div>
-  );
-};
+const extra = (
+  <a>
+    <Icon name='user' />
+    16 Friends
+  </a>
+)
 
-export default PastorsListItem;
+const CardExampleCardProps = () => (
+  <Card
+    image='/images/avatar/large/elliot.jpg'
+    header='Elliot Baker'
+    meta='Friend'
+    description='Elliot is a sound engineer living in Nashville who enjoys playing guitar and hanging with his cat.'
+    extra={extra}
+  />
+)
+
+export default CardExampleCardProps

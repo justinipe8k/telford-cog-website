@@ -2,6 +2,7 @@ import React from "react";
 import Page from "../../components/Page/Page";
 import PageBanner from "../../components/PageBanner/PageBanner";
 import PageTitle from "../../components/PageTitle/PageTitle";
+import AboutUsContent from "./Components/AboutUsContent";
 
 const About = function (props) {
   return (
@@ -9,7 +10,7 @@ const About = function (props) {
       <PageBanner>
         <PageTitle title="About Us" />
       </PageBanner>
-      <h1>About us</h1>
+     <AboutUsContent/>
     </Page>
   );
 };

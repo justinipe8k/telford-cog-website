@@ -12,6 +12,26 @@
 	padding-right: 2rem;
 }
 
+.text3dx {
+    color: #000000;
+    letter-spacing: .15em;
+	font-weight: bold;
+	text-shadow:
+	  -3px -3px 0 #222,
+	  3px -3px 0 #222,
+	  -3px 3px 0 #222,
+	  3px 3px 0 #222,
+	  4px 4px 0 #fff,
+	  5px 5px 0 #fff,
+	  6px 6px 0 #fff,
+	  7px 7px 0 #fff;
+	line-height: 0.8em;
+	letter-spacing: 0.1em;
+	transform: scaleY(0.7);
+	-webkit-transform: scaleY(0.7);
+	-moz-transform: scaleY(0.7);
+ }
+
 .nav-logo {
 	text-decoration: none;
 	color: white;
@@ -22,6 +42,9 @@
 	grid-template-columns: repeat(5, auto);
 	grid-gap: 20px;
 	list-style: none;
+	font-family: Georgia, serif;
+	font-size: 17px;
+	text-shadow: 2px 2px #000000;
 }
 
 .nav-link {
@@ -35,7 +58,7 @@
 	color: rgb(179, 211, 93);
 	background-color: #555;
 	animation-name: animation2;
-		animation-duration: .1s;
+		animation-duration: .5s;
 }
 
 .nav-icon {
@@ -85,24 +108,29 @@
 		text-align: center;
 		width: 100%;
 		top: 80px;
-		left: -100%;
+		right: -100%;
 		justify-items: center;
-
-		animation-name: animation1;
-		animation-duration: 4s;
+		transition: all .5s ease-in-out;
+		/* animation-name: animation1;
+		animation-duration: 4s; */
 	}
 
 	.nav-links.active {
-		background: rgb(79, 79, 92);
-		left: 0;
+		background: rgb(49, 49, 61);
+		right: 0;
 	}
 
 	.nav-item {
-		padding: 10px 0;
+		padding: 20px 0;
 		margin-top: -12px;
 		width: 95%;
 		margin-left: 10px;
+		height: 60px;
 		background-color: #555;
+		justify-items: center;
+		vertical-align: middle;
+		align-items: center;
+		text-align: center;
 	}
 
 	.nav-icon {
@@ -116,6 +144,12 @@
   }
 
   @keyframes animation2 {
-	from {}
-	to {margin-left: 10px;margin-right: 10px;}
+	  0% {transform: rotate(10deg)}
+	  20% {margin-left: 1px;margin-right: 1px; transform: rotate(10deg);}
+	  40% {margin-left: 2px;margin-right: 2px; transform: rotate(20deg);}
+	  60% {margin-left:3px;margin-right: 3px; transform: rotate(-10deg);}
+	  80% {margin-left: 2px;margin-right: 2px; transform: rotate(10deg);}
+	  100% {margin-left: 1px;margin-right: 1px;  transform: rotate(10deg);}
+	/* from {}
+	to {margin-left: 10px;margin-right: 10px;} */
   }

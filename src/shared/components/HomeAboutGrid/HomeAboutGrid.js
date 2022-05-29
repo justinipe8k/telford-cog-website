@@ -20,7 +20,7 @@ const HomeAboutGrid = function (props) {
           <HomeAboutGridItem
             title="Our Leadership"
             icon="leadership"
-            to="/pastors"
+            to="/leadership"
           />
         </div>
       </div>

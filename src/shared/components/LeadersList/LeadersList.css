@@ -1,0 +1,9 @@
+.LeadersList {
+  display: flex;
+  padding: 20px;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+

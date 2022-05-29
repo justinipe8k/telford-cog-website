@@ -22,7 +22,7 @@ const Navbar = () => {
 					<div className="nav-logo-subDiv1">
 						<img alt='logo' className='logo_image' src={logo} />
 					</div>
-					<div className="nav-logo-subDiv2">
+					<div className="nav-logo-subDiv2 text3d">
 						<div>Mahanaim Church of God</div>
 						<div>Telford</div>
 					</div>
@@ -40,13 +40,8 @@ const Navbar = () => {
 					</Link>
 				</li>
 				<li className="nav-item">
-					<Link to="/beliefs" className="nav-link" onClick={closeMenu}>
-						Our Beliefs
-					</Link>
-				</li>
-				<li className="nav-item">
-					<Link to="/ministries" className="nav-link" onClick={closeMenu}>
-						Our Ministries
+					<Link to="/gallery" className="nav-link" onClick={closeMenu}>
+						Gallery
 					</Link>
 				</li>
 				<li className="nav-item">

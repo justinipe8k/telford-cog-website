@@ -5,6 +5,7 @@ import Beliefs from "../pages/Beliefs/Beliefs";
 import Ministries from "../pages/Ministries/Ministries";
 import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
+import Gallery from "../pages/Gallery/Gallery";
 
 const routes = [
   {
@@ -24,18 +25,13 @@ const routes = [
   },
   {
     exact: true,
-    path: "/beliefs",
-    component: Beliefs,
-  },
-  {
-    exact: true,
-    path: "/ministries",
-    component: Ministries,
-  },
-  {
-    exact: true,
     path: "/contact",
     component: Contact,
+  },
+  {
+    exact: true,
+    path: "/gallery",
+    component: Gallery,
   },
   {
     component: NotFoundError,

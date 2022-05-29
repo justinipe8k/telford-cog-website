@@ -2,6 +2,7 @@ import React from "react";
 import Page from "../../components/Page/Page";
 import PageBanner from "../../components/PageBanner/PageBanner";
 import PageTitle from "../../components/PageTitle/PageTitle";
+import ContactForm from "./Components/ContactForm";
 
 const Contact = function (props) {
   return (
@@ -9,7 +10,7 @@ const Contact = function (props) {
       <PageBanner>
         <PageTitle title="Contact Us" />
       </PageBanner>
-    <h1>Contact Us</h1>
+    <ContactForm/>
     </Page>
   );
 };

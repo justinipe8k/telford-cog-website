@@ -1,0 +1,10 @@
+.galleryFlex{
+display:flex;
+padding: 30px;
+flex-wrap: wrap;
+}
+
+.galleryFlexItem
+{
+margin: 20px;
+}

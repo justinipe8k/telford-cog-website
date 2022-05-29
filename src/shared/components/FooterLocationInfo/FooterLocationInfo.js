@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "../Button/Button";
 import "./FooterLocationInfo.css";
-import { Link } from 'react-router-dom';
 
 const FooterLocationInfo = function (props) {
   return (

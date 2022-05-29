@@ -2,7 +2,7 @@ import React from "react";
 import Page from "../../components/Page/Page";
 import PageBanner from "../../components/PageBanner/PageBanner";
 import PageTitle from "../../components/PageTitle/PageTitle";
-import PastorsList from "../../components/PastorsList/PastorsList";
+import LeadersList from "../../components/LeadersList/LeadersList";
 
 const Leadership = function (props) {
   return (
@@ -10,7 +10,7 @@ const Leadership = function (props) {
       <PageBanner>
         <PageTitle title="Our Leadership" />
       </PageBanner>
-      <PastorsList />
+      <LeadersList />
     </Page>
   );
 };
