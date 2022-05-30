@@ -1,0 +1,13 @@
+.AboutUsContentMain
+{
+    margin: 30px;
+    width: 90%;
+}
+
+.AboutUsContentSub
+{
+    margin: 10px; 
+    padding: 20px;
+    background-color: rgb(243, 241, 237);
+    font-size: larger;
+}
