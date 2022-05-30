@@ -1,18 +1,17 @@
 import React from "react";
 import Page from "../../components/Page/Page";
-import Cover from "../../components/Cover/Cover";
-import Slider from "../../components/Slider/Slider";
-import SliderItem from "../../components/SliderItem/SliderItem";
-import HomeWelcome from "../../components/HomeWelcome/HomeWelcome";
-import HomeGreetings from "../../components/HomeGreetings/HomeGreetings";
-import HomeAbout from "../../components/HomeAbout/HomeAbout";
-import HomeMeetingInfo from "../../components/HomeMeetingInfo/HomeMeetingInfo";
-import Navbar from "../../components/Header/Navbar";
+import Cover from "../../pages/Home/Components/Cover/Cover";
+import Slider from "../../pages/Home/Components/Slider/Slider";
+import SliderItem from "../../pages/Home/Components/SliderItem/SliderItem";
+import HomeWelcome from "../../pages/Home/Components/HomeWelcome/HomeWelcome";
+import HomeGreetings from "../../pages/Home/Components/HomeGreetings/HomeGreetings";
+import HomeMeetingInfo from "../../pages/Home/Components/HomeMeetingInfo/HomeMeetingInfo";
+import HomeAbout from "../../pages/Home/Components/HomeAbout/HomeAbout";
 
 const Home = function (props) {
   return (
     <Page name="home"> 
-    
+   
       <Cover animate={true}>
         <Slider>
           <SliderItem>

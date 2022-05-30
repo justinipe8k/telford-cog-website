@@ -2,17 +2,18 @@ import React from "react";
 import Page from "../../components/Page/Page";
 import PageBanner from "../../components/Page/Components/PageBanner/PageBanner";
 import PageTitle from "../../components/Page/Components/PageTitle/PageTitle";
-import LeadersList from "./Components/LeadersList";
+import MessageVideos from "./Components/SermonVideos";
+import "./Components/Sermons.css"
 
-const Leadership = function (props) {
+const Sermons = function (props) {
   return (
-    <Page name="leadership">
+    <Page name="Sermons">
       <PageBanner>
-        <PageTitle title="Our Leadership" />
-      </PageBanner>
-      <LeadersList />
+        <PageTitle title="Sermons" />
+      </PageBanner>      
+     <MessageVideos/>
     </Page>
   );
 };
 
-export default Leadership;
+export default Sermons;

@@ -1,0 +1,23 @@
+.parent_div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    background-color: beige;
+    width: 96%;
+    min-width: 450px;
+    max-width: 560px;
+}
+
+.youtube_frame {
+    margin: 10px 0px;
+    min-width: 450px;
+    min-height: 315px;
+    max-width: 560px;
+    max-height: 315px;
+}
+
+.description
+{
+    max-width: 500px; 
+}

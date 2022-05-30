@@ -6,8 +6,10 @@
 
 .AboutUsContentSub
 {
-    margin: 10px; 
+    margin: 25px; 
     padding: 20px;
-    background-color: rgb(243, 241, 237);
+    background-color: rgb(248, 250, 252);
     font-size: larger;
+    border-radius :2z`px;
+    box-shadow: 1px 1px 1px 1px #888888;
 }

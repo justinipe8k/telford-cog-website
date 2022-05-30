@@ -1,8 +1,9 @@
 import React from "react";
 import Page from "../../components/Page/Page";
-import PageBanner from "../../components/PageBanner/PageBanner";
-import PageTitle from "../../components/PageTitle/PageTitle";
+import PageBanner from "../../components/Page/Components/PageBanner/PageBanner";
+import PageTitle from "../../components/Page/Components/PageTitle/PageTitle";
 import ContactForm from "./Components/ContactForm";
+import { Divider } from 'semantic-ui-react'
 
 const Contact = function (props) {
   return (

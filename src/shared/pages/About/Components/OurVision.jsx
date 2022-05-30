@@ -8,7 +8,7 @@ const OurVision = () => {
                 <h3>  OUR VISION</h3>
                 <Divider/>
                 <div>
-                    Our vision is to be a healthy, growing and prayerful church which is led by the Holy Spirit and where the Bible is studied and applied and we want to see the <strong>TRANSFORMATION</strong> of Telford and the surrounding area by the <strong>POWER OF THE HOLY SPIRIT</strong>, who is active to <strong>SAVE, HEAL and DELIVER</strong>.
+                    To be a healthy, growing and prayerful church which is led by the Holy Spirit and where the Bible is studied and applied and we want to see the <strong>TRANSFORMATION</strong> of Telford and the surrounding area by the <strong>POWER OF THE HOLY SPIRIT</strong>, who is active to <strong>SAVE, HEAL and DELIVER</strong>.
                 </div>
             </Container>
 

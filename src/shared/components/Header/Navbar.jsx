@@ -40,6 +40,16 @@ const Navbar = () => {
 					</Link>
 				</li>
 				<li className="nav-item">
+					<Link to="/kidsandyouth" className="nav-link" onClick={closeMenu}>
+						Kids and Youth
+					</Link>
+				</li>
+				<li className="nav-item">
+					<Link to="/sermons" className="nav-link" onClick={closeMenu}>
+					Sermons
+					</Link>
+				</li>
+				<li className="nav-item">
 					<Link to="/gallery" className="nav-link" onClick={closeMenu}>
 						Gallery
 					</Link>

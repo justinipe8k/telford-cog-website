@@ -1,7 +1,7 @@
 import React from "react";
 import Page from "../../components/Page/Page";
-import PageBanner from "../../components/PageBanner/PageBanner";
-import PageTitle from "../../components/PageTitle/PageTitle";
+import PageBanner from "../../components/Page/Components/PageBanner/PageBanner";
+import PageTitle from "../../components/Page/Components/PageTitle/PageTitle";
 import { Image } from 'semantic-ui-react'
 import image1 from "../../images/photos/gallery/image1.jpg";
 import image2 from "../../images/photos/gallery/image2.jpg";
