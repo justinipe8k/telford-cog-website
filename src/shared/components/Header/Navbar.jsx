@@ -24,7 +24,7 @@ const Navbar = () => {
 					</div>
 					<div className="nav-logo-subDiv2 text3d">
 						<div>Mahanaim Church of God</div>
-						<div>Telford</div>
+						<div>Telford - UK</div>
 					</div>
 
 				</div>

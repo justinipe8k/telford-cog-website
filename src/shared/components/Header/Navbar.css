@@ -1,11 +1,13 @@
 .navbar {
-	height: 80px;
+	height: 60px;
 	width: 100%;
 	display: flex;
 	position: relative;
 	align-items: center;
-	background-color: #333;
-	color: white;
+	/* background-color: #333; */
+	background-color: #969083;
+	/* color: white; */
+	color: #000000;
 	justify-content: space-between;
 	align-items: center;
 	font-size: 1.2rem;
@@ -13,7 +15,8 @@
 }
 
 .text3dx {
-	color: #000000;
+	/* color: #000000; */
+	color: #f7f1f1;
 	letter-spacing: .15em;
 	font-weight: bold;
 	text-shadow:
@@ -34,7 +37,8 @@
 
 .nav-logo {
 	text-decoration: none;
-	color: white;
+	/* color: white; */
+	color: #000000;
 }
 
 .nav-links {
@@ -43,22 +47,24 @@
 	grid-gap: 20px;
 	list-style: none;
 	font-family: Georgia, serif;
-	font-size: 17px;
-	text-shadow: 2px 2px #000000;
+	font-size: 18px;
 }
 
 .nav-link {
 	text-decoration: none;
-	color: white;
+	/* color: white; */
+	color: #000000;
 	transition: 0.3s all;
-	padding: 1rem;
+	padding: 11px;
+	border-radius: 15px;
+	height: 10px;
 }
 
 .nav-link:hover {
 	color: rgb(179, 211, 93);
 	background-color: #555;
-	animation-name: animation2;
-	animation-duration: .5s;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .nav-icon {
@@ -146,39 +152,19 @@
 
 @keyframes animation2 {
 	0% {
-		transform: rotate(10deg)
+		color: rgb(179, 211, 93);
+		background-color: #555;
 	}
 
-	20% {
-		margin-left: 1px;
-		margin-right: 1px;
-		transform: rotate(10deg);
-	}
-
-	40% {
-		margin-left: 2px;
-		margin-right: 2px;
-		transform: rotate(20deg);
-	}
-
-	60% {
+	50% {
 		margin-left: 3px;
 		margin-right: 3px;
-		transform: rotate(-10deg);
-	}
-
-	80% {
-		margin-left: 2px;
-		margin-right: 2px;
-		transform: rotate(10deg);
 	}
 
 	100% {
 		margin-left: 1px;
 		margin-right: 1px;
-		transform: rotate(10deg);
+		color: rgb(179, 211, 93);
+		background-color: #555;
 	}
-
-	/* from {}
-	to {margin-left: 10px;margin-right: 10px;} */
 }

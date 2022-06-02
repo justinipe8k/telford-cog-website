@@ -19,7 +19,6 @@ const Leadership = function (props) {
                 <div className='galleryFlexItem'> <Image src={image1} size='large' rounded /></div>
                 <div className='galleryFlexItem'>    <Image src={image2} size='large' rounded /></div>
                 <div className='galleryFlexItem'> <Image src={image3} size='large' rounded /></div>
-                <div className='galleryFlexItem'> <Image src={image4} size='large' rounded /></div>
             </div>
         </Page>
     );
