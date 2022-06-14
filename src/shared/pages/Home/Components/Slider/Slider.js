@@ -41,7 +41,7 @@ class Slider extends Component {
             })
           }
         </div>
-        <SliderControls onPrev={ this.prevSlide } onNext={ this.nextSlide } />
+        <SliderControls onPrev={ this.prevSlide } onNext={ this.nextSlide } style={{height:'100%'}}/>
       </div>
     );
   }

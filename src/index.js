@@ -4,6 +4,7 @@ import ReduxProvider from "./shared/redux/ReduxProvider";
 import { BrowserRouter } from 'react-router-dom';
 import { default as AppRoutes } from './shared/router/Routes';
 import routes from "./shared/router/routes.list";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import * as serviceWorker from './serviceWorker';
 

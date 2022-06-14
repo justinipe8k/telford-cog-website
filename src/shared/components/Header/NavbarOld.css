@@ -1,0 +1,151 @@
+.navbar {
+	height: 60px;
+	width: 100%;
+	display: flex;
+	position: relative;
+	align-items: center;
+	/* background-color: #333; */
+	background-color: #969083;
+	/* color: white; */
+	color: #000000;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1.2rem;
+	padding-right: 2rem;
+}
+
+
+
+.nav-logo {
+	text-decoration: none;
+	/* color: white; */
+	color: #000000;
+}
+
+.nav-links {
+	display: grid;
+	grid-template-columns: repeat(6, auto);
+	grid-gap: 20px;
+	list-style: none;
+	font-family: Georgia, serif;
+	font-size: 18px;
+}
+
+.nav-link {
+	text-decoration: none;
+	/* color: white; */
+	color: #000000;
+	transition: 0.3s all;
+	padding: 11px;
+	border-radius: 15px;
+	height: 10px;
+}
+
+.nav-link:hover {
+	color: rgb(179, 211, 93);
+	background-color: #555;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.nav-icon {
+	display: none;
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+.logo_image {
+	width: 110px;
+}
+
+.nav-logo-div {
+	display: flex;
+	justify-items: center;
+	padding-top: 0px;
+}
+
+.nav-logo-subDiv1 {
+	justify-items: center;
+	vertical-align: middle;
+	display: flex;
+	flex-direction: column;
+}
+
+.nav-logo-subDiv2 {
+	justify-items: center;
+	vertical-align: middle;
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	font-family: Georgia, serif;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+	.navbar {
+		position: relative;
+		z-index: 99;
+	}
+
+	.nav-links {
+		padding: 18px 0px;
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		top: 80px;
+		right: -100%;
+		justify-items: center;
+		transition: all .5s ease-in-out;
+		/* animation-name: animation1;
+		animation-duration: 4s; */
+	}
+
+	.nav-links.active {
+		background: rgb(49, 49, 61);
+		right: 0;
+	}
+
+	.nav-item {
+		padding: 20px 0;
+		margin-top: -12px;
+		width: 95%;
+		margin-left: 10px;
+		height: 60px;
+		background-color: #555;
+		justify-items: center;
+		vertical-align: middle;
+		align-items: center;
+		text-align: center;
+	}
+
+	.nav-icon {
+		display: flex;
+	}
+}
+
+@keyframes animation1 {
+	from {}
+
+	to {}
+}
+
+@keyframes animation2 {
+	0% {
+		color: rgb(179, 211, 93);
+		background-color: #555;
+	}
+
+	50% {
+		margin-left: 3px;
+		margin-right: 3px;
+	}
+
+	100% {
+		margin-left: 1px;
+		margin-right: 1px;
+		color: rgb(179, 211, 93);
+		background-color: #555;
+	}
+}

@@ -1,7 +1,8 @@
 .SliderControls {
-  position: relative;
+  position: absolute;
   height: 75px;
-  margin-top: -75px;
+  bottom: 0px;
+  right :10px;
 }
 
 .SliderControls__arrows {

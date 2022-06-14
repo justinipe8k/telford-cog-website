@@ -55,3 +55,8 @@
 .HomeWelcome__buttons .Button:not(:first-child) {
   margin-left: 15px;
 }
+
+.logo_image
+{
+width: 200px;
+}
