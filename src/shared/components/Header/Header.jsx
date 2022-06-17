@@ -26,12 +26,12 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{marginRight:"20px"}}/>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="justify-content-end flex-grow-1 pe-3 me-auto">
-            <Nav.Link href="/about">About Us</Nav.Link>
-            <Nav.Link href="/kidsandyouth">Kids and Youth</Nav.Link>
-            <Nav.Link href="/sermons">Sermons</Nav.Link>
-            <Nav.Link href="/gallery">Gallery</Nav.Link>
-            <Nav.Link href="/leadership">Our Leadership</Nav.Link>
-            <Nav.Link href="/contact">	Contact Us</Nav.Link>
+            <Nav.Link href="/about"><div className='nav_link_item'>About Us</div></Nav.Link>
+            <Nav.Link href="/kidsandyouth"><div className='nav_link_item'>Kids and Youth</div></Nav.Link>
+            <Nav.Link href="/sermons"><div className='nav_link_item'>Sermons</div></Nav.Link>
+            <Nav.Link href="/gallery"><div className='nav_link_item'>Gallery</div></Nav.Link>
+            <Nav.Link href="/leadership"><div className='nav_link_item'>Our Leadership</div></Nav.Link>
+            <Nav.Link href="/contact"><div className='nav_link_item'>	Contact Us</div></Nav.Link>
           </Nav>         
         </Navbar.Collapse>
     </Navbar>

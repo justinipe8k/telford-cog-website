@@ -1,34 +1,29 @@
-import React from 'react';
-import './WelcomeSlider.css';
-import ArrowIcon from '../ArrowIcon/ArrowIcon';
-import Slider1 from './Slider1';
-import Slider2 from './Slider2';
+import React from "react";
+import Slider1 from "./Slider1";
+import Slider2 from "./Slider2";
+import AwesomeSlider from "react-awesome-slider";
+import "react-awesome-slider/dist/styles.css";
+import "react-awesome-slider/dist/custom-animations/cube-animation.css";
+import "react-awesome-slider/dist/styles.css";
 
-
-const WelcomeSlider = (props) => {
-    const onNext = () => {
-        if (props.sliderItemNo == props.maxSlides) props.setSliderItemNo(1);
-       else  props.setSliderItemNo(props.sliderItemNo + 1);
-    }
-    const onPrev = () => {
-        if (props.sliderItemNo == 1) props.setSliderItemNo(props.maxSlides);
-       else  props.setSliderItemNo(props.sliderItemNo - 1);
-    }
-    return (
-        <div className='WelcomeSlider_ParentDiv'>
-            <div className="SliderControls__button_left SliderControls__button" onClick={onPrev}>
-                <ArrowIcon direction="left" scale="0.5" />
-            </div>
-            <div className="SliderControls__button_right SliderControls__button" onClick={onNext}>
-                <ArrowIcon direction="right" scale="0.5" />
-            </div>
-            {(props.sliderItemNo==1)?<Slider1/>:<></>
-            }
-             {
-            (props.sliderItemNo==2)?<Slider2/>:<></>
-            }
-        </div>
-    )
+function WelcomeSlider() {
+  const isMobile = window.innerWidth <= 550;
+  return (
+    <AwesomeSlider
+      className="slider-parent"
+      play={true}
+      cancelOnInteraction={false}
+      interval={2000}
+      mobileTouch={true}
+    >
+      <div className="slider-child">
+        {!isMobile ? <Slider1 /> : <Slider2 />}
+      </div>
+      <div className="slider-child">
+        <Slider2 />
+      </div>
+    </AwesomeSlider>
+  );
 }
 
 export default WelcomeSlider;

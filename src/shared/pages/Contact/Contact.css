@@ -1,0 +1,72 @@
+.contact-parent-div {
+  display: flex;
+  margin: 40px;
+  padding: 40px;
+  justify-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Contact-Card-Parent {
+  text-align: center;
+  align-items: center;
+  min-width: 300px;
+  min-height: 300px;
+  margin: 40px;
+  padding: 40px;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #888888;
+  justify-items: center;
+  justify-content: space-evenly;
+}
+
+.Contact-Card-Heading
+{
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: italic;
+}
+
+.Contact-Card-Image {
+  width: 50px;
+}
+
+.Contact-Card-Footer-Image {
+    width: 35px;
+    cursor: pointer;
+  }
+
+  .Contact-Card-Details:hover
+  {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+.Contact-Card-Parent
+{
+  position: relative;
+}
+
+.Contact-Card-Parent:hover {
+background-color: rgb(233, 250, 233);
+  }
+  .Contact-Card-Parent:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom center;
+  }
+
+  .Contact-Card-Parent:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 4px;
+	bottom: 0;
+	left: 0;
+	background-color: #1b1918;
+	transform-origin: bottom center;
+	transition: transform 0.25s ease-out;
+  }

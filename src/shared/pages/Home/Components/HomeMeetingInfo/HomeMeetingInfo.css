@@ -30,7 +30,6 @@
     height: 200px;
     text-align: center;
     vertical-align: middle;
-    animation: animation1 1s infinite;
     border-top-left-radius :30px;
     border-bottom-right-radius :30px;
 }
@@ -46,7 +45,6 @@
     height: 200px;
     text-align: center;
     vertical-align: middle;
-    animation: animation1 0.9s infinite;
     border-top-left-radius :30px;
     border-bottom-right-radius :30px;
 }
@@ -63,7 +61,6 @@
     height: 200px;
     text-align: center;
     vertical-align: middle;
-    animation: animation1 1.1s infinite;
     border-top-left-radius :30px;
     border-bottom-right-radius :30px;
 }

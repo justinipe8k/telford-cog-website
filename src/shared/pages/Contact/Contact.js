@@ -2,8 +2,9 @@ import React from "react";
 import Page from "../../components/Page/Page";
 import PageBanner from "../../components/Page/Components/PageBanner/PageBanner";
 import PageTitle from "../../components/Page/Components/PageTitle/PageTitle";
-import ContactForm from "./Components/ContactForm";
-import { Divider } from 'semantic-ui-react'
+import Email from './Components/Email';
+import Call from "./Components/Call";
+import Whatsapp from "./Components/Whatsapp";
 
 const Contact = function (props) {
   return (
@@ -11,7 +12,11 @@ const Contact = function (props) {
       <PageBanner>
         <PageTitle title="Contact Us" />
       </PageBanner>
-    <ContactForm/>
+      <div className="contact-parent-div">
+      <Email/>
+      <Call/>
+      <Whatsapp/>
+      </div>
     </Page>
   );
 };

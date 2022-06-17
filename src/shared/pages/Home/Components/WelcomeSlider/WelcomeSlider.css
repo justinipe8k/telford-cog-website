@@ -132,3 +132,26 @@
   {
   width: 200px;
   }
+
+  .slider-child
+  {
+    width: 100vw;
+    background-size: cover;
+    background-position: center bottom;
+    box-sizing: border-box;
+    object-fit: cover;
+    backface-visibility: hidden;
+  }
+
+  .slider-parent
+  {
+  padding: 0px;
+  margin:0px;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center bottom;
+  box-sizing: border-box;
+  object-fit: cover;
+  backface-visibility: hidden;
+  }

@@ -8,14 +8,14 @@ const HomeAboutGrid = function (props) {
       <div className="wrapper wrapper--content">
         <div className="HomeAboutGrid__grid">
           <HomeAboutGridItem
-            title="Our Beliefs"
+            title="About Us"
             icon="beliefs"
-            to="/about/beliefs"
+            to="/about"
           />
           <HomeAboutGridItem
-            title="Our Ministries"
+            title="Sermons"
             icon="ministries"
-            to="/about/ministries"
+            to="/sermons"
           />
           <HomeAboutGridItem
             title="Our Leadership"
