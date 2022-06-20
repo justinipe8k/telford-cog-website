@@ -7,6 +7,7 @@ import Gallery from "../pages/Gallery/Gallery";
 import Sermons from "../pages/Sermons/Sermons";
 import Facebook from "../pages/Facebook/Facebook";
 import KidsAndYouth from "../pages/KidsAndYouth/KidsAndYouth";
+import Calendar from "../pages/Calendar/Calendar";
 
 const routes = [
   {
@@ -48,6 +49,11 @@ const routes = [
     exact: true,
     path: "/sermons",
     component: Sermons,
+  },
+  {
+    exact: true,
+    path: "/calendar",
+    component: Calendar,
   },
   {
     component: NotFoundError,

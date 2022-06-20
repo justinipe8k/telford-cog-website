@@ -1,19 +1,20 @@
 .contact-parent-div {
   display: flex;
-  margin: 40px;
-  padding: 40px;
+  padding: 30px;
   justify-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  width: 100vw;
+  flex-basis: 100/3;
 }
 
 .Contact-Card-Parent {
   text-align: center;
   align-items: center;
-  min-width: 300px;
-  min-height: 300px;
+  min-width: 250px;
+  min-height: 250px;
   margin: 40px;
-  padding: 40px;
+  padding: 10px;
   background-color: azure;
   display: flex;
   flex-direction: column;

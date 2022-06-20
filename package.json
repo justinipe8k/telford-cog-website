@@ -4,6 +4,9 @@
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
+    "@fullcalendar/daygrid": "^5.11.0",
+    "@fullcalendar/list": "^5.11.0",
+    "@fullcalendar/react": "^5.11.1",
     "@googlemaps/react-wrapper": "^1.1.34",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -23,6 +26,7 @@
     "react-icons": "^4.3.1",
     "react-image-gallery": "^1.2.8",
     "react-perfect-slider": "^2.0.1",
+    "react-photo-album": "^1.14.0",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
