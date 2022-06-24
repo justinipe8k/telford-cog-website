@@ -22,8 +22,8 @@ const HomeGreetings = function(props) {
             <p>I am glad you are here to know about our church.</p>
             <br/>
             <p>
-              If you are interested in worshipping with us, 
-              I whole-heartedly welcome you to attend our worship service and experience the touch and power of God.
+              {/* If you are interested in worshipping with us,  */}
+              I wholeheartedly welcome you to attend our worship service and experience the touch and power of God.
             </p>
             <br/>
             <p>Thank you and God bless you.</p>

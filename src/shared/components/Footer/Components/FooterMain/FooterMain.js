@@ -17,6 +17,10 @@ const FooterMain = function (props) {
       name: "youtube",
       url: "https://youtube.com/channel/UCKUpMHwj5LLw2wEB2qK3lpA",
     },
+    {
+      name: "instagram",
+      url: "https://www.instagram.com/mahanaimchurchtelford/?igshid=YmMyMTA2M2Y=",
+    },
   ];
 
   return (

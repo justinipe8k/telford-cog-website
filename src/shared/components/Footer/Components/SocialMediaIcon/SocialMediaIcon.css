@@ -28,3 +28,6 @@
 .SocialMediaIcon--youtube .SocialMediaIcon__image {
   background-image: url("../socialmedia/youtube.png");
 }
+.SocialMediaIcon--instagram .SocialMediaIcon__image {
+  background-image: url("../socialmedia/instagram.png");
+}

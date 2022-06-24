@@ -12,6 +12,9 @@ const Footer = function (props) {
           <FooterMain />
         </div>
       </div>
+      <a href='https://www.facebook.com/Jubbafied'>
+      <div className='credits'>Designed and developed by Jubbafied</div>
+      </a>
     </footer>
   );
 };

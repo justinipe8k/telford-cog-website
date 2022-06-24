@@ -1,6 +1,6 @@
 import React from 'react'
 import './WelcomeSlider.css'
-import video from './video.mp4'
+import video from '../../../../images/photos/videoLandscapeview.mp4'
 
 const Slider1 = () => {
     return (

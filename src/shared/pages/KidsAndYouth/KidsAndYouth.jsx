@@ -22,6 +22,7 @@ import image16 from "../../images/photos/KidsAndYouth/image16.JPG";
 import image17 from "../../images/photos/KidsAndYouth/image17.JPG";
 import image18 from "../../images/photos/KidsAndYouth/image18.JPG";
 import image19 from "../../images/photos/KidsAndYouth/image19.JPG";
+import KidsAndYouthGallery from "./Components/KidsAndYouthGallery";
 
 const photos = [
   {
@@ -131,7 +132,8 @@ const KidsAndYouth = function (props) {
       <PageBanner>
         <PageTitle title="Kids and Youth" />
       </PageBanner>
-      <PhotoAlbum layout="masonry" photos={photos} />
+      {/* <PhotoAlbum layout="masonry" photos={photos} /> */}
+      <KidsAndYouthGallery/>
     </Page>
   );
 };

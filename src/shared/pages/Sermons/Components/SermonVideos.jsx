@@ -1,17 +1,79 @@
-import React from 'react'
-import { Container } from 'semantic-ui-react'
-
+import React from "react";
+import { Container } from "semantic-ui-react";
 
 const SermonVideos = (link) => (
-    <div className='parent_div'>
+  <div className="sermon_parent_div">
+    {/* -------------------------------------------------------------------------------------------------------------------- */}
+    <div className="sermon_item_div">
+      <div>
         <div>
-            <div><h4>Message by Rev. Dr. Joe Kurian</h4></div>
-        <iframe className='youtube_frame' src="https://www.youtube.com/embed/tbqpn4LgzLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <div className='description'>
-            This message was given at the church on his Apostolic visit in 2022. 
+          <h4>Message by Rev. Dr. Joe Kurian</h4>
         </div>
+        <br></br>
+        <iframe
+        //   width="560"
+        //   height="315"
+        className="youtube_frame"
+          src="https://www.youtube.com/embed/tbqpn4LgzLQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+         <br></br>
+        <div className="description">
+          This message was given at the church on his Apostolic visit in 2022.
         </div>
+      </div>
     </div>
-)
+    {/* -------------------------------------------------------------------------------------------------------------------- */}
 
-export default SermonVideos
+    {/* -------------------------------------------------------------------------------------------------------------------- */}
+    <div className="sermon_item_div">
+      <div>
+        <div>
+          <h4>Song by Br. Gypson Roshan</h4>
+        </div>
+        <br></br>
+        <iframe
+        //   width="560"
+        //   height="315"
+        className="youtube_frame"
+          src="https://www.youtube.com/embed/SJQ08HpdLrc"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+         <br></br>
+        <div className="description"></div>
+      </div>
+    </div>
+    {/* -------------------------------------------------------------------------------------------------------------------- */}
+
+    {/* -------------------------------------------------------------------------------------------------------------------- */}
+    <div className="sermon_item_div">
+      <div>
+        <div>
+          <h4>Message by Pr. Biju Cherian</h4>
+        </div>
+        <br></br>
+        <iframe
+        //   width="560"
+        //   height="315"
+        className="youtube_frame"
+          src="https://www.youtube.com/embed/_YR1pjEQXoM"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+         <br></br>
+        <div className="description">Power of Prayer</div>
+      </div>
+    </div>
+    {/* -------------------------------------------------------------------------------------------------------------------- */}
+  </div>
+);
+
+export default SermonVideos;

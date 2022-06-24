@@ -10,3 +10,23 @@
   padding: 100px 50px;
   flex-wrap: wrap;
 }
+
+.credits
+{
+display: flex;
+justify-content: center;
+align-items: center;
+color: var(--color-dark);
+font-size: 14px;
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+text-align: center;
+opacity: 0.5;
+cursor: pointer;
+margin-bottom: 10px;
+}
+.credits:hover{
+  font-style: italic;
+  color: black;
+  opacity: 0.8;
+}
