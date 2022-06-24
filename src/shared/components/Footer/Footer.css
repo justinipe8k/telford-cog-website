@@ -7,13 +7,14 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 100px 50px;
+  align-content: center;
+  align-self: center;
+  padding: 10px;
   flex-wrap: wrap;
 }
 
 .credits
 {
-display: flex;
 justify-content: center;
 align-items: center;
 color: var(--color-dark);
@@ -23,7 +24,6 @@ font-weight: 600;
 text-align: center;
 opacity: 0.5;
 cursor: pointer;
-margin-bottom: 10px;
 }
 .credits:hover{
   font-style: italic;

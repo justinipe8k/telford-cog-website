@@ -11,7 +11,7 @@ const FooterMain = function (props) {
     },
     {
       name: "whatsapp",
-      url: "https://wa.me/447404535362",
+      url: "https://wa.me/447411539877",
     },
     {
       name: "youtube",

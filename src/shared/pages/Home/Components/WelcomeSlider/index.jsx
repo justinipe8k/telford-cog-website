@@ -4,19 +4,27 @@ import Slider1mobile from "./Slider1mobile.jsx";
 import Slider2 from "./Slider2.jsx";
 import Slider3 from "./Slider3.jsx";
 import AwesomeSlider from "react-awesome-slider";
+import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import "react-awesome-slider/dist/styles.css";
 import "react-awesome-slider/dist/custom-animations/cube-animation.css";
 import "react-awesome-slider/dist/styles.css";
+import { Spinner } from 'react-bootstrap';
+
+const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 function WelcomeSlider() {
   const isMobile = window.innerWidth <= 550;
   return (
-    <AwesomeSlider
+    <AutoplaySlider
       className="slider-parent"
       play={true}
-      cancelOnInteraction={false}
-      interval={2000}
+      autoPlay={true}
+      loop={true}
+      cancelOnInteraction={true}
+      interval={10000}
       mobileTouch={true}
+      startupScreen={ <Spinner/>}
+      startup={true}
     >
       <div className="slider-child">
         {!isMobile ? <Slider1 /> : <Slider1mobile/>}
@@ -27,7 +35,7 @@ function WelcomeSlider() {
       {/* <div className="slider-child">
        <Slider3/>
       </div> */}
-    </AwesomeSlider>
+    </AutoplaySlider>
   );
 }
 
