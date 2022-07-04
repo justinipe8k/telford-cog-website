@@ -32,9 +32,9 @@ function WelcomeSlider() {
       <div className="slider-child">
         <Slider2 />
       </div>
-      {/* <div className="slider-child">
+      <div className="slider-child">
        <Slider3/>
-      </div> */}
+      </div>
     </AutoplaySlider>
   );
 }

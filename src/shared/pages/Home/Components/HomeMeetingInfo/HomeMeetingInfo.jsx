@@ -1,8 +1,6 @@
 import React from "react";
 import "./HomeMeetingInfo.css";
 
-import { Grid, Image, Rail, Segment } from 'semantic-ui-react'
-
 const HomeMeetingInfo = () => (
     <div className="parentDiv">
         <div className="heading"> <h2>Our Meetings</h2> </div>

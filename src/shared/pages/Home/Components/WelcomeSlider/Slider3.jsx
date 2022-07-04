@@ -1,12 +1,10 @@
 import React from "react";
 import "./WelcomeSlider.css";
-import Button from "../../../../components/Button/Button";
-import logo from "../../../../images/logos/logo_full_dark_750x200.png";
-import { Link } from "react-router-dom";
 
 const Slider3 = function () {
   return (
     <div className="Slider3_ParentDiv">
+
       <div className="slider-verse-parent">
         <div className="slider-verse">
           ദൈവത്തിന്റെ വചനം ജീവനും ചൈതന്യവുമുള്ളതായി ഇരുവായ്ത്തലയുള്ള ഏതു

@@ -14,6 +14,7 @@ import image7 from "../../images/photos/gallery/image7.JPG";
 import image8 from "../../images/photos/gallery/image8.JPG";
 import image9 from "../../images/photos/gallery/image9.JPG";
 import image10 from "../../images/photos/gallery/image10.JPG";
+import image11 from "../../images/photos/gallery/image11.jpg";
 
 
 const GalleryNew = function (props) {
@@ -58,6 +59,10 @@ const GalleryNew = function (props) {
         {
           original:  image10,
           thumbnail:  image10,
+        },
+        {
+          original:  image11,
+          thumbnail:  image11,
         },
       ];
   return (

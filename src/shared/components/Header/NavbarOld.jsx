@@ -34,6 +34,11 @@ const Navbar = () => {
 			</div>
 
 			<ul className={open ? 'nav-links active' : 'nav-links'}>
+			<li className="nav-item">
+					<Link to="/live" className="nav-link" onClick={closeMenu}>
+						<div calssName='fb-live'>Live</div>
+					</Link>
+				</li>
 				<li className="nav-item">
 					<Link to="/about" className="nav-link" onClick={closeMenu}>
 						About Us

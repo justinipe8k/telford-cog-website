@@ -5,7 +5,7 @@ import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
 import Gallery from "../pages/Gallery/Gallery";
 import Sermons from "../pages/Sermons/Sermons";
-import Facebook from "../pages/Facebook/Facebook";
+import Live from "../pages/Live/Live";
 import KidsAndYouth from "../pages/KidsAndYouth/KidsAndYouth";
 import Calendar from "../pages/Calendar/Calendar";
 
@@ -32,8 +32,8 @@ const routes = [
   },
   {
     exact: true,
-    path: "/facebook",
-    component: Facebook,
+    path: "/live",
+    component: Live,
   },
   {
     exact: true,

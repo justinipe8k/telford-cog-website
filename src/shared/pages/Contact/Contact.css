@@ -71,3 +71,9 @@ background-color: rgb(233, 250, 233);
 	transform-origin: bottom center;
 	transition: transform 0.25s ease-out;
   }
+
+  .email-link
+  {
+    font-size: 14px;
+    color: blue;
+  }

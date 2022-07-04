@@ -1,10 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import pr_biju_cherian from "../../../images/photos/pr_biju_cherian.jpg";
-import br_rejoy from "../../../images/photos/br_rejoy.jpg";
-import br_linu_thomas from  "../../../images/photos/br_linu_thomas.jpg";
-import sr_neethu_mary_mathew from  "../../../images/photos/sr_neethu_mary_mathew.jpg";
-import sr_suja_biju from  "../../../images/photos/sr_suja_biju.jpg";
+import pr_biju_cherian from "../../../images/photos/Photos/pr_biju_cherian.jpg";
+import br_rejoy from "../../../images/photos/Photos/br_rejoy_stephan.jpg";
+import br_linu_thomas from  "../../../images/photos/Photos/br_linu_thomas.jpg";
+import sr_neethu_mary_mathew from  "../../../images/photos/Photos/sr_neethu_rejoy.jpg";
+import sr_suja_biju from  "../../../images/photos/Photos/sr_suja_biju.jpg";
 import "./LeadersList.css";
 import LeaderItem from "./LeaderItem";
 

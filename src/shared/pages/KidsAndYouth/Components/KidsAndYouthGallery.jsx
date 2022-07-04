@@ -1,6 +1,5 @@
 import React from "react";
 import Gallery from "react-grid-gallery";
-import { render } from "react-dom";
 import "../KidsAndYouth.css";
 import image1 from "../../../images/photos/KidsAndYouth/image1.JPG";
 import image2 from "../../../images/photos/KidsAndYouth/image2.JPG";

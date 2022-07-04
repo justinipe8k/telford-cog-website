@@ -1,5 +1,5 @@
 import React from "react";
-import pastorPhoto from "./images/pastor-biju-cherian.jpg";
+import pastorPhoto from "../../../../images/photos/Photos/pr_biju_cherian_home.jpg";
 import "./HomeGreetings.css";
 
 const HomeGreetings = function(props) {
